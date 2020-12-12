@@ -1,0 +1,24 @@
+name: Persist
+description: A Flutter Example project.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.4 <3.0.0"
+  flutter: ">=1.22.4"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  persisted_objects:
+    path: ../
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
