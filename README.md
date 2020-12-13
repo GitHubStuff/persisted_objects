@@ -38,9 +38,9 @@ The supported types for `V` and `E` are:
 - int
 - DateTime
 
-*NOTE:* Any types beyond those listed, like a custom class name, will throw an exception.
+*NOTE:* Any types beside those listed, like a custom class name, will throw an exception.
 
-*NOTE:* To remove from device `set` methods will value of `null`.
+*NOTE:* To remove from device pass null in the`set` methods.
 
 ## Summary
 

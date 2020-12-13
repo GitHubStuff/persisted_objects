@@ -1,3 +1,7 @@
+// Copyright 2020 LTMM. All rights reserved.
+// Uses of this source code is governed by 'The Unlicense' that can be
+// found in the LICENSE file.
+
 import 'package:enum_to_string/enum_to_string.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
@@ -12,7 +16,7 @@ class PersistedObject {
   PersistedObject({@required this.keyPrefix})
       : assert(keyPrefix != null),
         assert(keyPrefix.isNotEmpty);
-        
+
   Future<Duration> duration({@required String key, bool isSecure = false, DateTime compareTime}) async {
     assert(key != null);
     assert(key.isNotEmpty);
