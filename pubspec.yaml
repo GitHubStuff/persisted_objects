@@ -1,6 +1,6 @@
 name: persisted_objects
-description: Helper package to store/retrieve
-version: 0.0.2+0
+description: Helper package to store/retrieve objects
+version: 0.0.2+1
 author: StevenSmith@ICodeForYou.com
 homepage: http://www.icodeforyou.com
 
@@ -22,3 +22,4 @@ dev_dependencies:
   mockito: ^4.1.3
 
 flutter:
+  uses-material-design: true

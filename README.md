@@ -32,6 +32,7 @@ class PersistedObject {
 The `keyPrefix` should be a string like a reverse domain (eg. 'com.example.object') to avoid name collision and to try and insure that shared secure store names don't conflict. The `keyPrefix` is prepended to each `key` name along with internal obfuscation text for collion avoidence and security.
 
 The supported types for `V` and `E` are:
+
 - String
 - bool
 - double
@@ -40,7 +41,7 @@ The supported types for `V` and `E` are:
 
 *NOTE:* Any types beside those listed, like a custom class name, will throw an exception.
 
-*NOTE:* To remove from device pass null in the`set` methods.
+*NOTE:* To remove from device pass *null* in the `set` methods.
 
 ## Summary
 
