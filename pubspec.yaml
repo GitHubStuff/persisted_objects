@@ -1,6 +1,6 @@
 name: persisted_objects
 description: Helper package to store/retrieve objects
-version: 0.0.2+1
+version: 0.0.2+2
 author: StevenSmith@ICodeForYou.com
 homepage: http://www.icodeforyou.com
 
